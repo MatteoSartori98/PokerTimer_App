@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/PokerTimer_App/sw.js', { scope: '/PokerTimer_App/' })})}
